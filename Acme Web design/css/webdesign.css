@@ -1,0 +1,184 @@
+html{
+
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	min-height: 963px;
+}
+
+.highlight{
+	color: #d93116;
+}
+
+.container{
+	font-family: sans-serif;
+	color: white;
+}
+
+h1, h2, h3{
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+header{
+	background-color: #0d2f47;
+	position: relative;	
+	top: 0px;
+	min-height: 100px;
+	height: auto;
+	width: auto;
+	border-bottom: 3px solid #d93116;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+header h1{
+	width: auto;
+	color: white;
+}
+
+
+header h1 span{
+	color: #d93116;
+}
+
+nav {
+	justify-content: flex-end;
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+}
+
+nav a{
+ 	padding: 0 35px 0 35px;
+ 	transition: 0.2s;
+}
+
+nav a:hover{
+	color: #d93116;
+}
+
+.showcase{
+	min-height: 400px;
+	width: auto;
+	background-image: url(../images/main.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+	filter: brightness(90%);
+}
+
+.showcase h1{
+	color: #d93116;
+	text-align: center;
+	font-size: 70px;
+	padding: 70px 20px 15px 20px;
+	width: 80%;
+	margin: auto;
+}
+
+.showcase p{
+	color: white;
+	font-size: 27px;
+	text-align: center;
+	padding: 20px 20px 15px 20px;
+	width: 80%;
+	margin: auto;
+	line-height: 45px;
+}
+
+.subscribe{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #0d2f47;
+	padding: 30px 200px;
+	flex-wrap: wrap;
+}
+
+.subscribe .input{
+	padding-right: 200px;
+}
+
+.subscribe .email{
+	padding-right: 140px;
+	height: 33px;
+	outline: none;
+}
+
+.button{
+	height: 38px;
+	width: 110px;
+	border: none;
+	outline: none;
+	background-color: #d93116;
+	color: white;
+}
+
+article {
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	width: 85%;
+	margin: auto;
+}
+
+article img{
+	max-width: 130px;
+	max-height: 130px;
+	margin: auto;
+}
+.html img{
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.css img{
+	margin-top: 20px;
+}
+
+.design img{
+	margin-top: 20px;
+}
+
+article div{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.box-1{
+
+}
+
+footer{
+	background-color: #d93116;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 25px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+@Media (max-width:800px){
+	header{
+		width: 100%;
+	}
+
+	article {
+	flex-wrap: wrap;
+	}
+}
